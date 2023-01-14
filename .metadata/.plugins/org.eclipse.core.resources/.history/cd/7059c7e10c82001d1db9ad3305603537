@@ -1,0 +1,44 @@
+package com.ts.FirstRestAssured;
+import static io.restassured.RestAssured.given;
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+  
+   /* 	given()
+		.when()
+		.get(" https://reqres.in/api/users/2")
+		.then()
+		.log()
+		.body();    
+    	
+    	given().
+    	contentType("application/json").body
+    	("{\r\n"
+    			+ "    \"name\": \"morpheus\",\r\n"
+    			+ "    \"job\": \"leader\"\r\n"
+    			+ "}")
+    	.when()
+    	.post("https://reqres.in/api/users")
+    	.then().log().all();
+
+    }*/
+    	String jsonString="{\r\n"
+    			+ "  \"name\":\"reshma\",\r\n"
+    			+ "  \"cars\":[\r\n"
+    			+ "  {\r\n"
+    			+ "    \"name\":\"I20\",\r\n"
+    			+ "    \"year\":\"2005\"\r\n"
+    			+ "  },\r\n"
+    			+ "  {\r\n"
+    			+ "     \"name\":\"swift\",\r\n"
+    			+ "    \"year\":\"2010\"\r\n"
+    			+ "    \r\n"
+    			+ "  }]\r\n"
+    			+ "}";
+    }
+}
